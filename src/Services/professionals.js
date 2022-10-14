@@ -1,9 +1,9 @@
-export default async function ProfessionalsFetch (endpoint){
-    try{
-    return await fetch("https://my-json-server.typicode.com/DanielGedamo/Professionals-JSON/db"+endpoint).then(response=>response.json())
-    // .thenconsole.log(response);
-}
-catch(error){
-    console.log(error);
-}
-}
+// export  async function ProfessionalsFetch (){
+//     try{
+//     return await fetch("https://my-json-server.typicode.com/Jeck99/fake-users-api/users").then(response=>response.json())
+//     // .thenconsole.log(response);
+// }
+// catch(error){
+//     console.log(error);
+// }
+// }
