@@ -1,0 +1,16 @@
+.Professionals {
+  box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: sticky;
+  width: 100%;
+  border: 3px solid;
+  margin-top: 15vh;
+  margin-bottom: 19vh;
+}
+#pic_pro {
+  border-radius: 50%;
+  height: 20vh;
+}
