@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import React from "react";
+import React, { useContext } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -16,7 +16,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import {Link} from "react-router-dom"
 
 function Navbar() {
-  const pages = ["Home", "category", "About", "Contact","Registration","login"];
+  const pages = ["Home", "category", "About", "Contact","Registration","login","Product","cart"];
   const settings = ["Profile", "Account" , "Logout"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -71,6 +71,7 @@ function Navbar() {
                 color="inherit"
               >
                 <MenuIcon />
+                
               </IconButton>
               <Menu
                 id="menu-appbar"
@@ -95,6 +96,8 @@ function Navbar() {
                     <Typography textAlign="center"><Link to={page}>{page}</Link></Typography>
                   </MenuItem>
                 ))}
+                
+
               </Menu>
             </Box>
             <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />

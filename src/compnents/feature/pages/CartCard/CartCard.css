@@ -1,0 +1,48 @@
+ .cartcontainer{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+text-align: center;
+border-bottom: 3px black solid;
+margin-top: 50px;
+} 
+.minosBTR{
+    border-radius: 10px;
+    background-color:  rgb(24, 149, 51);
+    height: 35px;
+    width: 35px;
+    color: white;
+
+}
+.plosBTR{
+    border-radius: 10px;
+    background-color: rgb(24, 149, 51);
+    height: 35px;
+    width: 35px;
+    color: white;
+
+}
+.removeBTR{
+    border-radius: 10px;
+    background-color:  rgb(24, 149, 51);
+    height: 35px;
+    width: 65px;
+    color: white;
+
+}
+.amount{
+    border-radius: 10px;
+    background-color:  rgb(24, 149, 51);
+    height: 35px;
+    width: 35px;
+    color: white;
+
+}
+.price{
+    border-radius: 10px;
+    background-color:  rgb(24, 149, 51);
+    height: 35px;
+    width: 35px;
+    color: white;
+
+}
+ 

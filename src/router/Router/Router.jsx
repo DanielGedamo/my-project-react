@@ -7,6 +7,8 @@ import Contact from "../../compnents/feature/pages/Contact/Contact";
 import Login from "../../compnents/feature/pages/login/login";
 import ProfessionalsProvider from "../../context/Context/Context";
 import {Routes,Route} from "react-router-dom"
+import Product from "../../compnents/feature/pages/Product/Product";
+import Cart from "../../compnents/feature/pages/Cart/Cart";
 
 function Router() {
   return (
@@ -18,6 +20,8 @@ function Router() {
         <Route path="category" element = {<ProfessionalsProvider><Category/></ProfessionalsProvider> }/>
         <Route path="About" element = {<About/>}/>
         <Route path="Contact" element = {<Contact/>} />
+        <Route path="Product" element = {<Product/>} />
+        <Route path="Cart" element = {<Cart/>} />
         <Route path="Login" element = {<Login/>} />
       </Routes>
     </div>
