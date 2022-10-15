@@ -11,11 +11,11 @@ setCart([...cart,obj])
   return (
     <>
       <div className=" ProductCard col-sm-4 mt-3">
-        <div className="productPic img-top w-75">
+        <div className="productPic img-top w-75 h-50">
           <img className="card-img-top" src={item.imag} alt="" />
         </div>
-        <div className="productText">
-          <p>{item.discribe}</p>
+        <div className="productText mt-4">
+          <p>{item.titel}</p>
           <p>{item.price}</p>
         </div>
         <button onClick={()=>addTOcrt(item)}>add item</button>
