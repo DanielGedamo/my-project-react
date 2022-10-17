@@ -11,7 +11,6 @@ function CategoryCard({ item }) {
             <h1>{item.name}</h1>
           </div>
         </div>
-        <p className="card-text">{item.name}</p>
         <MyPro item={item} />
       </div>
     </div>

@@ -16,7 +16,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import {Link} from "react-router-dom"
 
 function Navbar() {
-  const pages = ["Home", "category", "About", "Contact","Registration","login","Product","cart"];
+  const pages  = ["Home", "category", "About", "Contact","Registration","login","Product","cart"];
   const settings = ["Profile", "Account" , "Logout"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -35,9 +35,10 @@ function Navbar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+  console.log(pages);
 
   return (
-    <div className="navbar">
+    <div className="navbar ">
 
       <AppBar position="static">
         <Container maxWidth="xl">
@@ -48,6 +49,7 @@ function Navbar() {
               noWrap
               component="a"
               href="/"
+              
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -68,8 +70,7 @@ function Navbar() {
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
-                color="inherit"
-              >
+                  >
                 <MenuIcon />
                 
               </IconButton>
@@ -92,8 +93,8 @@ function Navbar() {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center"><Link to={page}>{page}</Link></Typography>
+                  <MenuItem color="red"  key={page} onClick={handleCloseNavMenu}>
+                    <Typography   textAlign="center black"><Link to={page }>{page}</Link></Typography>
                   </MenuItem>
                 ))}
                 
@@ -124,7 +125,7 @@ function Navbar() {
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
+                  sx={{ my: 2, color: "black", display: "block" }}
                 >
                   <Link to={page}>{page}</Link>
                 </Button>

@@ -15,7 +15,6 @@ function App() {
       <BrowserRouter>
         <ProfessionalsProvider>
           <cartContext.Provider value={{cart,setCart}} >
-
           <Navbar />
           <Router />
           </cartContext.Provider>
