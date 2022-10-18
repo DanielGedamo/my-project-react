@@ -176,9 +176,11 @@ import{ Link }from "react-router-dom"
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" collapseOnSelect expand="sm">
+        <Navbar.Toggle aria-colcount="navbarScroll" data-bs-target="#navbarScroll"/>
+     
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="/home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
           
             <Nav.Link as={Link} to="Category">Category</Nav.Link>
@@ -191,6 +193,7 @@ function ColorSchemesExample() {
           <Navbar.Brand as={Link} to="Navbar">Navbar</Navbar.Brand>
 
         </Container>
+        
       </Navbar>
       
     </>

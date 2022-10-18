@@ -4,7 +4,7 @@ import {productData}  from "../../../../Services/ProductData";
 
 function ProductCard({item,setCart,cart}) {
 
-  const addTOcrt=(obj)=>{
+ const addTOcrt=(obj)=>{
 if(cart.indexOf(obj)!= -1)return;
 setCart([...cart,obj])
 

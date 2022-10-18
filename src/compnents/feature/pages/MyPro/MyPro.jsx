@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { prosArray } from "../../../../Services/prosArray";
+import MyproCard from "../../MyproCard/MyproCard";
 function MyPro({ item }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   // console.log(prosArray[item.name].map());
-  // console.log(item);
+ 
+  
 
   return (
     <>
@@ -20,9 +22,16 @@ function MyPro({ item }) {
         <Modal.Header closeButton>
           <Modal.Title>{item.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{prosArray[item.name]?.map((pro)=>{
-          return <div ><p>{pro.fullName +"         "}</p> {pro.area +"       "}{pro.age}</div>
-        })}</Modal.Body>
+        <Modal.Body>
+          <div className="d-flxe">
+            <div className="row">
+ {prosArray[item.name]?.map((pro,index)=>
+          <MyproCard pro={pro} key={index}/>
+          
+        )}
+            </div>
+          </div>
+         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
