@@ -1,7 +1,6 @@
 import "./Registration.css";
 import React, { useState } from "react";
-import {Link} from "react-router-dom"
-
+import { Link } from "react-router-dom";
 
 export const emailValidator = (Email) => {
   if (!Email) {
@@ -83,41 +82,55 @@ function Registration() {
   };
   console.log(user);
   return (
-    <form onSubmit={(e) => onSubmit(e)}>
-      <h1>Register</h1>
-      <div className="registration">
-        <label htmlFor="fullName">Full name</label>
-        <input type="text" id="FullName" onChange={(e) => onChange(e)}></input>
-        <br></br>
-        <label htmlFor="Email">Email</label>
-        <input type="text" id="Email" onChange={(e) => onChange(e)}></input>
-        <br></br>
-        <label htmlFor="Birthdate">Birthdate </label>
-        <input type="date" id="Birthdate" onChange={(e) => onChange(e)}></input>
-        <br></br>
-        <label htmlFor="Picture">Picture </label>
-        <input type="file" id="Picture" onChange={(e) => onChange(e)}></input>
-        <br></br>
-        <label htmlFor="password">Password</label>
-        <input
-          type="password"
-          id="Password"
-          onChange={(e) => onChange(e)}
-        ></input>
-        <br></br>
-        <label htmlFor="confirmPassword">confirm Password</label>
-        <input
-          type="password"
-          id="confirmPassword"
-          onChange={(e) => onChange(e)}
-        ></input>
-        <br></br>
-      </div>
+    <div className=" d-flex justify-content-center mb-5">
+      <form className=" formDiv mt-5 " onSubmit={(e) => onSubmit(e)}>
+        <div className="registrationDiv card row d-flex justify-content-center align-items-center text-center h-10 w-30 p-3 ">
+          <label htmlFor="fullName"></label>
+          <input
+            type="text"
+            id="FullName"
+            onChange={(e) => onChange(e)}
+          placeholder ="Full name"></input>
+          <br></br>
+          <label htmlFor="Email"></label>
+          <input type="text" id="Email" onChange={(e) => onChange(e)} placeholder ="Email"></input>
+          <br></br>
+          <label htmlFor="Birthdate"> </label>
+          <input  placeholder ="Birthdate"
+            type="date"
+            id="Birthdate"
+            onChange={(e) => onChange(e)}
+          ></input>
+          <br></br>
+          <label htmlFor="Picture">Picture </label>
+          <input type="file" id="Picture" onChange={(e) => onChange(e)}></input>
+          <br></br>
+          <label htmlFor="password"></label>
+          <input placeholder ="Password"
+            type="password"
+            id="Password"
+            onChange={(e) => onChange(e)}
+          ></input>
+          <br></br>
+          <label htmlFor="confirmPassword"></label>
+          <input placeholder ="confirm Password"
+            type="password"
+            id="confirmPassword"
+            onChange={(e) => onChange(e)}
+          ></input>
+          <br></br>
+          <input type={"submit"} value="Send " className="w-25" ></input>
+        </div>
 
-      <input type={"submit"} value="Send "></input>
-     <span> {error} </span>
-      <div> <span> כבר יש לך חשבון?</span>{ "     "}<Link to ={"/login"}>לכניסה</Link></div>
-     </form>
+        <span style={{color:"red"}}> {error} </span>
+        <div>
+          {" "}
+          <span> Already have an account?</span>
+          {"     "}
+          <Link to={"/login"}>login</Link>
+        </div>
+      </form>
+    </div>
   );
 }
 

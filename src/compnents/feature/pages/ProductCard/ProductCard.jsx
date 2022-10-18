@@ -7,6 +7,7 @@ function ProductCard({item,setCart,cart}) {
   const addTOcrt=(obj)=>{
 if(cart.indexOf(obj)!= -1)return;
 setCart([...cart,obj])
+
   }
   return (
     <>
@@ -14,14 +15,16 @@ setCart([...cart,obj])
         <div className="productPic img-top w-75 h-50">
           <img className="card-img-top" src={item.imag} alt="" />
         </div>
-        <div className="productText mt-4">
-          <p>{item.titel}</p>
-          <p>{item.price}</p>
+        <div className=" mt-4">
+          <p className="pric">{item.titel}</p>
+          <p className=""> {item.price} </p>
         </div>
-        <button onClick={()=>addTOcrt(item)}>add item</button>
+        <button onClick={()=>addTOcrt(item)}>Add To Cart</button>
       </div>
     </>
   );
+  
+  
 }
 
 export default ProductCard;

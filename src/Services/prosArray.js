@@ -1,182 +1,182 @@
 export const prosArray = {
-  "טכנאים": [
+  "Technicians": [
     {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
       
     },
     {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "center"
     },
     {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
-    },
-
-  ],
-  "ריצוף": [
-    {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
-    },
-    {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
-    },
-    {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
     },
 
   ],
-  "הובלות": [
+  "Flooring": [
     {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
     },
     {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
     },
     {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
-    },
-
-  ],
-  "מוסכים": [
-    {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
-    },
-    {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
-    },
-    {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
     },
 
   ],
-  "גינון": [
+  "Transportation": [
     {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
     },
     {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
     },
     {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
-    },
-
-  ],
-  "תיווך": [
-    {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
-    },
-    {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
-    },
-    {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
     },
 
   ],
-  "שיפוצים": [
+  "Garages": [
     {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
     },
     {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
     },
     {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
-    },
-
-  ],
-  "חוק ומשפט": [
-    {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
-    },
-    {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
-    },
-    {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
     },
 
   ],
-  "טקסטיל ועיצוב": [
+  "Gardening": [
     {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
     },
     {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
     },
     {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
     },
 
   ],
-  "חיות מחמד": [
+  "Real estate": [
     {
-      fullName: "אלי טקלה",
-      age:"23",
-      area: "גדרה"
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
     },
     {
-      fullName:"שי משה",
-      age:"43",
-      area: "חיפה"
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
     },
     {
-      fullName: "יאיר גטהון",
-      age:"44",
-      area: "ירושלים"
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
+    },
+
+  ],
+  "Renovations": [
+    {
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
+    },
+    {
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
+    },
+    {
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
+    },
+
+  ],
+  "Law ": [
+    {
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
+    },
+    {
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
+    },
+    {
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
+    },
+
+  ],
+  " design": [
+    {
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
+    },
+    {
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
+    },
+    {
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
+    },
+
+  ],
+  " Animals": [
+    {
+      fullName: "Ron miler",
+      age:"0525381648",
+      area: "North"
+    },
+    {
+      fullName:"Shy mor ",
+      age:"055689678",
+      area: "Center"
+    },
+    {
+      fullName: "Lior Oren",
+      age:"0556768423",
+      area: "South"
     },
 
   ],

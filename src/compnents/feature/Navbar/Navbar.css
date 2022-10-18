@@ -1,5 +1,10 @@
-.navbar{
+/* .navbar{
     text-decoration: none;
     color: black;
+    background-color: black;
    
+} */
+.navImg{
+    width: 40px;
+    height: 40px;
 }

@@ -13,7 +13,7 @@ function MyPro({ item }) {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        לחץ למומחה
+      Get expert 
       </Button>
 
       <Modal show={show} onHide={handleClose} animation={false}>
@@ -21,7 +21,7 @@ function MyPro({ item }) {
           <Modal.Title>{item.name}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{prosArray[item.name]?.map((pro)=>{
-          return <div>{pro.age}{pro.fullName}</div>
+          return <div ><p>{pro.fullName +"         "}</p> {pro.area +"       "}{pro.age}</div>
         })}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

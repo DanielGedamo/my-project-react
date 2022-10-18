@@ -29,9 +29,9 @@ function CartCard({ item,sumPrise,setPrice,setCart,cart }) {
 
         <p className="price text-lg-center ">{item.price}</p>
         <span className="amount  text-lg-center ">{item.amount}</span>
-        <button onClick={()=>hendelAmount(item,-1)}className=" minosBTR  text-lg-center btn bg-info">-</button>
+        <div><button onClick={()=>hendelAmount(item,-1)}className=" minosBTR  text-lg-center btn bg-info">-</button></div>
         <buton onClick={()=>hendelAmount(item,1)} className="plosBTR  text-lg-center btn bg-info">+</buton>
-        <buton onClick={()=>remove(item.id)} className="removeBTR  text-lg-center btn bg-info">remove</buton>
+         <div><buton onClick={()=>remove(item.id)} className="removeBTR  text-lg-center btn bg-info">remove</buton></div>
       </div>
     </div>
   );
