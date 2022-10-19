@@ -1,49 +1,60 @@
  .cartcontainer{
-display: grid;
-grid-template-columns: repeat(7,1fr);
+display: flex ;
+
+
+/* grid-template-columns: repeat(7,1fr); */
 text-align: center;
 border-bottom: 3px black solid;
 margin-top: 50px;
 
+
 } 
+.containerDiv{
+display: flex ;
+
+}
 .minosBTR{
-    border-radius: 10px;
-    background-color: rgb(24, 149, 51);
-    height: 35px;
-    width: 35px;
-    color: white;
+    border-radius: 5px;
+    background-color:  rgb(55, 24, 149);
+    height: 30px;
+    width: 80px;
+    margin-bottom: 4px;
+    margin-right: 3px;
 
 }
 .plosBTR{
-    border-radius: 10px;
-    background-color: rgb(24, 149, 51);
-    height: 35px;
-    width: 35px;
-    color: white;
+    border-radius: 5px;
+    background-color:  rgb(55, 24, 149);
+    width: 80px;
+    margin-bottom: 4px;
+    margin-right: 3px;
 
 }
 .removeBTR{
     border-radius: 10px;
     background-color:  rgb(24, 149, 51);
     height: 35px;
-    width: 65px;
+    width: 80px;
     color: white;
 
 }
 .amount{
-    border-radius: 10px;
-    background-color:  rgb(24, 149, 51);
-    height: 35px;
-    width: 35px;
+    border-radius: 5px;
+    background-color:  rgb(55, 24, 149);
+    height: 30px;
+    width: 80px;
     color: white;
+    margin-right: 3px;
+    margin-bottom: 4px;
 
 }
 .price{
-    border-radius: 10px;
-    background-color:  rgb(24, 149, 51);
-    height: 35px;
-    width: 35px;
+    border-radius: 5px;
+    background-color:  rgb(55, 24, 149);
+    height: 30px;
+    width: 80px;
     color: white;
+    margin-right: 3px;
 
 }
  

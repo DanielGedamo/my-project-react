@@ -23,8 +23,9 @@ function Cart() {
         {cart.map((item) => (
           <CartCard item={item} setPrice={setPrice} sumPrise={sumPrise}  setCart={setCart} cart={cart}/>
         ))}
+      
+      <div><h1>Total:{price}</h1></div>
       </div>
-      <div>{price}</div>
     </div>
   );
 }

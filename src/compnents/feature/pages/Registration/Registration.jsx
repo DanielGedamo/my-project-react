@@ -83,7 +83,9 @@ function Registration() {
   console.log(user);
   return (
     <div className=" d-flex justify-content-center mb-5">
+    
       <form className=" formDiv mt-5 " onSubmit={(e) => onSubmit(e)}>
+      <h3>rerererer</h3>
         <div className="registrationDiv card row d-flex justify-content-center align-items-center text-center h-10 w-30 p-3 ">
           <label htmlFor="fullName"></label>
           <input
@@ -113,7 +115,7 @@ function Registration() {
           ></input>
           <br></br>
           <label htmlFor="confirmPassword"></label>
-          <input placeholder ="confirm Password"
+          <input placeholder ="confirm Password" className=""
             type="password"
             id="confirmPassword"
             onChange={(e) => onChange(e)}

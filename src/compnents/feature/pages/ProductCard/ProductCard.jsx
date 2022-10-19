@@ -11,7 +11,7 @@ setCart([...cart,obj])
   }
   return (
     <>
-      <div className=" ProductCard card  col-sm-4 mt-3 bg-Secondary  mb-3 ">
+      <div className=" ProductCard card  col-sm-4 mt-3 bg-Secondary  mb-3 style= width: 18rem g-20 ">
         <div className="productPic img-top w-75 h-50">
           <img className="card-img-top" src={item.imag} alt="" />
         </div>

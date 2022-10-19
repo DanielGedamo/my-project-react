@@ -2,7 +2,7 @@ import MyPro from "../pages/MyPro/MyPro";
 import "./CategoryCard.css";
 function CategoryCard({ item }) {
   return (
-    <div className="categoryCard col-sm-4 mt-3 ">
+    <div className="categoryCard  col-sm-4 mt-3 ">
       <div className="  text-center container ">
         <img className="card-card-img-top w-75" id="pic_pro" src={item.image} />
 
