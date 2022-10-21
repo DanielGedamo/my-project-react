@@ -1,5 +1,6 @@
  .cartcontainer{
 display: flex ;
+padding-left: 110px;
 
 
 /* grid-template-columns: repeat(7,1fr); */
@@ -10,8 +11,13 @@ margin-top: 50px;
 
 } 
 .containerDiv{
-display: flex ;
+/* display: flex ; */
 
+
+}
+
+.imgDiv{
+width: 200px;
 }
 .minosBTR{
     border-radius: 5px;
@@ -20,6 +26,7 @@ display: flex ;
     width: 80px;
     margin-bottom: 4px;
     margin-right: 3px;
+    padding-bottom: 5px;
 
 }
 .plosBTR{
@@ -28,12 +35,14 @@ display: flex ;
     width: 80px;
     margin-bottom: 4px;
     margin-right: 3px;
+    height: 30px;
+
 
 }
 .removeBTR{
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:  rgb(24, 149, 51);
-    height: 35px;
+    height: 30px;
     width: 80px;
     color: white;
 
@@ -52,9 +61,20 @@ display: flex ;
     border-radius: 5px;
     background-color:  rgb(55, 24, 149);
     height: 30px;
-    width: 80px;
+    min-width: 80px;
     color: white;
     margin-right: 3px;
 
 }
  
+
+
+
+
+
+
+
+
+
+
+

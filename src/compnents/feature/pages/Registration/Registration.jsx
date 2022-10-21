@@ -70,9 +70,9 @@ function Registration() {
         setError(confirmPassword);
         break;
 
-      default:
-        break;
-    }
+        default:console.log("fklkl");
+        break ;
+    };
     setUser({ ...user, [id]: e.target.value });
   };
 

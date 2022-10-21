@@ -16,15 +16,15 @@ function Cart() {
     sumPrise()
   })
   return (
-    <div className="cart d-flex justify-content-center ">
-      <h1 className="text-center">Cart</h1>
+    <div className="cart d-flex justify-content-center  align-content-center">
+  
 
-      <div className=" mt-5c flex-wrapper">
+      <div className=" mt-5c container-fluid ">
         {cart.map((item) => (
           <CartCard item={item} setPrice={setPrice} sumPrise={sumPrise}  setCart={setCart} cart={cart}/>
         ))}
       
-      <div><h1>Total:{price}</h1></div>
+      <div className=" d-flex justify-content-between"><h1>Total:{price}$</h1></div>
       </div>
     </div>
   );
