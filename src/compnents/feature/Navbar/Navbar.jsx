@@ -56,7 +56,6 @@ function Navbar() {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                // background: "#000000",
                 textDecoration: "none",
               }}
             ><ShoppingCartCheckoutIcon/>

@@ -1,0 +1,25 @@
+.homePic{
+    width: 600px;
+    height: 400px;
+}
+
+.textAndPic{
+    background-color: rgb(216, 226, 226);
+}
+.ritingDiv{
+    min-height: 100px;
+    width: 300px;
+}
+.sponcersPic{
+    width: 300px;
+    height: 100px;
+}
+@media screen and (max-width: 600px) {
+  .homePic{
+    display: none;
+  }
+  .Divpic{
+    margin-left:38px;
+
+}
+  }
